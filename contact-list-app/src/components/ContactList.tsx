@@ -1,7 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { removeContact } from '../redux/contactsSlice';
-import styled from 'styled-components';
 import { Contact } from '../types';
 
 
@@ -21,7 +20,7 @@ const ContactList: React.FC = () => {
             <ul>
                 {contacts.map((contact: Contact) => (
                     <li key={contact.id}>
-                        <span>{contact.fullName}</span>
+                        <span>{contact.name}</span>
                         <span>{contact.email}</span>
                         <span>{contact.phone}</span>
                         <button onClick={() => handleRemoveContact(contact.id)}>Remover</button>

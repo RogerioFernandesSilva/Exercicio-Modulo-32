@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { removeContact } from '../redux/contactsSlice';
 import styled from 'styled-components';
+import { Contact } from '../types';
 
 const ContactItemContainer = styled.div`
   display: flex;
@@ -30,7 +31,12 @@ const Button = styled.button`
   }
 `;
 
-const ContactItem = ({ contact }) => {
+
+interface ContactItemProps {
+  contact: Contact;
+}
+
+const ContactItem: React.FC<ContactItemProps> = ({ contact }) => {
   const dispatch = useDispatch();
 
   const handleRemove = () => {
@@ -40,9 +46,9 @@ const ContactItem = ({ contact }) => {
   return (
     <ContactItemContainer>
       <ContactInfo>
-        <span>{contact.fullName}</span>
-        <span>{contact.email}</span>
-        <span>{contact.phone}</span>
+        <p>{contact.name}</p>
+        <p>{contact.email}</p>
+        <p>{contact.phone}</p>
       </ContactInfo>
       <Button onClick={handleRemove}>Remove</Button>
     </ContactItemContainer>

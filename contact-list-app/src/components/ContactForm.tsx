@@ -1,12 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addContact, editContact } from '../redux/contactsSlice';
-import styled from 'styled-components';
 import { Contact } from '../types';
-
-
-
-
 
 const ContactForm: React.FC<{ currentContact?: Contact; setCurrentContact?: (contact: Contact | null) => void }> = ({ currentContact, setCurrentContact }) => {
     const [name, setName] = useState(currentContact ? currentContact.name : '');
@@ -19,7 +14,7 @@ const ContactForm: React.FC<{ currentContact?: Contact; setCurrentContact?: (con
         if (currentContact) {
             dispatch(editContact({ ...currentContact, name, email, phone }));
         } else {
-            dispatch(addContact({ name, email, phone }));
+            dispatch(addContact({ id: crypto.randomUUID(), name, email, phone }));
         }
         clearFields();
     };

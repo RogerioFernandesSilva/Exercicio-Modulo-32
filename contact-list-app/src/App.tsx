@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { store } from './redux/store';
 import ContactForm from './components/ContactForm';
 import ContactList from './components/ContactList';
-import GlobalStyles from './styles/GlobalStyles';
+import GlobalStyles from './styles/GlobalStyle';
 
 const App: React.FC = () => {
   return (
