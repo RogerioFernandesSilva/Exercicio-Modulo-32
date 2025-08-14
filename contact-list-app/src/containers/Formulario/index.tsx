@@ -1,5 +1,4 @@
 import { FormEvent, useState } from 'react'
-import { Main }   from '../../styles/variaveis'
 
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -33,7 +32,7 @@ const Formulario = () => {
   }
 
   return (
-    <Main>
+    <div>
       <h2>Novo Contato</h2>
       <form onSubmit={cadastrarContato}>
         <Fild>
@@ -69,7 +68,7 @@ const Formulario = () => {
                     setGrupos(evento.target.value as enums.Grupos)
                   }
                   id={grupos}
-                  defaultChecked={grupos == enums.Grupos.GUYS}
+                  defaultChecked={grupos === enums.Grupos.GUYS}
                 />
                 <label htmlFor={grupos}>{grupos}</label>
               </>
@@ -87,7 +86,7 @@ const Formulario = () => {
         </div>
         </div>
             </form>
-    </Main>
+    </div>
   )
 }
 
