@@ -1,21 +1,29 @@
-import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import ContactForm from './components/ContactForm';
-import ContactList from './components/ContactList';
-import GlobalStyles from './styles/GlobalStyle';
+import { Provider } from 'react-redux'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import StyleGlobal, { Container } from './styles'
+import store from './store'
+import Home from './pages/Home'
+import Register from './pages/Register'
 
-const App: React.FC = () => {
+const rotas = createBrowserRouter([
+  {
+    path: '/',
+    element: <Home />
+  },
+  {
+    path: '/cadastro',
+    element: <Register />
+  }
+])
+
+function App() {
   return (
     <Provider store={store}>
-      <GlobalStyles />
-      <div>
-        <h1>Lista de Contatos</h1>
-        <ContactForm />
-        <ContactList />
-      </div>
+      <StyleGlobal />
+      <Container>
+        <RouterProvider router={rotas} />
+      </Container>
     </Provider>
-  );
-};
-
-export default App;
+  )
+}
+export default App

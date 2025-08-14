@@ -44,3 +44,127 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+---------------------------------------------------
+Contact-List
+Static Badge GitHub top language GitHub forks
+
+Table of Contents
+Project description
+Functionalities
+Setup
+Prerequisites
+technologies and tools
+Instalation
+Usage
+Update
+References
+Contributors or owners
+Contribute-to-the-projects
+Contact
+License
+Project Description
+Esse Projeto foi desenvolvido para a pratíca de tecnologias, como typescript , styled-components, redux@toolkit.
+Minha fonte de motivação deste projeto foi a EBAC.
+O Contac-List é uma aplicação de gerenciamento de Lista de contatos.
+
+Task
+
+Desenvolver uma aplicação minimalista de um Gerenciador de listas de Contatos usando @redux/toolkit
+Charlenge
+
+Os Maiores desafios foram:
+Colocar em pratíca o que foi aprendido no curso, da EBAC criando um aplicação simples porem funcional.
+
+Functionalities
+ Criar um card de contatos
+ Editar os dados inserridos no Card
+ Busca po Filtro de Pesquisa, onde o usuário pode pesquisar pelo nome ou pela Categória como: Famila, Pessoal ou Trabalho
+Tip
+
+Baixe o Projeto em seu Computador e veja como ficou.
+
+Setup
+Requisitos necessários para rodar o projeto:
+
+Prerequisites
+Node.js VSCode Git
+
+Important
+
+Run Time Node.js com a versão 16 ou superior.
+Um editor de códigos onde eu recomendo o VCode
+E o git uma aplicação de versionamento de código.
+technologies and tools
+React Vite styled-components redux redux@toolkit EditorConfig ESLint Git Prettier Pnpm
+
+Instalation
+Para rodar o projeto em seu computador você tera que fazer o fork do repositório. Caso você não saiba como fazer, estou deixando um link da documentação oficial do gitHub, onde é esclarecido como fazer essse processo.
+Fazendo esse processo você tera uma copia desse Repositório no seu GitHub.
+Static Badge
+
+Depois de ter feito o fork vamos fazer o clone desse Repositório atráves do VSCode.
+Caso você não saiba como fazer, estou deixando um link para a documentação oficial do gitHub onde é esclarecido como fazer essse processo.
+Command Line
+
+git clone https://github.com/emmanuelmarcosdeoliveira/contac-list
+Static Badge
+
+Com o VSCode aberto, abra o terminal. pelo VsCode e vamos fazer a instalação das dependências necessárias para a execução do Projeto:
+
+1. Instalando as dependências
+
+Gerenciador de pacotes usado
+Pnpm
+
+Command Line
+
+pnpm  install
+
+Usage
+2. Inicie o Servidor com o seguinte comando dentro do Terminal
+
+Gerenciador de pacotes usado
+Pnpm
+
+Command Line
+
+pnpm  run dev
+
+Ira aparecer um Pop-up solicitanto que você clique para acessar o projeto no seu navegador. Segure a tecla Control e clique no local específicado, o projeto será aberto em uma nova aba do seu nagevador Preferido.
+
+
+Imagem de demostração do Projeto
+
+
+Print do Projeto Print do Projeto
+Acesse a versão on-line Projeto clicando no Link Abaixo
+
+
+
+Update
+
+Nessa seção teremos as atualizações do Projeto:
+
+References
+Acesse: EBAC
+
+Contributors or owners
+owner
+
+Emmanuel Oliveira
+Creation of styles and project development by 💖 Emmanuel Oliveira
+© Todos os Direitos Reservados
+
+Contribute to the projects
+Como fazer uma contribuição ao Projeto ?
+Contact
+  
+😁Obrigado por chegar até aqui!
+
+License
+Static Badge
+Released in 2024 This project is under the MIT license
+
+
+
+voltar ao topo
