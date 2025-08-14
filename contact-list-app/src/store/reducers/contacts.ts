@@ -10,44 +10,44 @@ const initialState: ContatosState = {
   itens: [
     {
       grupos: enums.Grupos.WORK,
-      titulo: 'EBAC',
-      telefone: '11-968336094',
-      email: 'ebac@gmail.com',
+      titulo: 'Transformers',
+      telefone: '55-98686-7575',
+      email: 'cyberdrom@gmail.com',
       id: 1
     },
     {
       grupos: enums.Grupos.FAMILY,
-      titulo: 'João',
-      telefone: '11-99999-9999',
-      email: 'joaoc@gmail.com',
+      titulo: 'Lampião',
+      telefone: '01-92121-7171',
+      email: 'cangaco@gmail.com',
       id: 2
     },
     {
       grupos: enums.Grupos.GUYS,
-      titulo: 'Maria',
-      telefone: '11-99999-9999',
-      email: 'vidac@gmail.com',
+      titulo: 'Maria Bonita',
+      telefone: '81-94848-1212',
+      email: 'bela@gmail.com',
       id: 3
     },
     {
-      grupos: enums.Grupos.FAMILY,
-      titulo: 'Everton',
-      telefone: '11-99999-9999',
-      email: 'eventon@gmail.com',
+      grupos: enums.Grupos.WORK,
+      titulo: 'Jonh Connor',
+      telefone: '01-97474-7777',
+      email: 'resistencia@gov.com',
       id: 4
     },
     {
-      grupos: enums.Grupos.FAMILY,
-      titulo: 'Elisa',
-      telefone: '11-99999-9999',
-      email: 'elisa@gmail.com',
+      grupos: enums.Grupos.WORK,
+      titulo: 'Terminator',
+      telefone: '05-99999-9999',
+      email: 't1000@gmail.com',
       id: 5
     },
     {
-      grupos: enums.Grupos.GUYS,
-      titulo: 'Ricardo',
-      telefone: '11-99999-9999',
-      email: 'ricardo@gmail.com',
+      grupos: enums.Grupos.WORK,
+      titulo: 'Sara Connor',
+      telefone: '55-98181-7777',
+      email: 'resistencia2@gov.com',
       id: 6
     }
   ]
