@@ -1,4 +1,4 @@
-import { alterarFiltro } from '../../store/redurcers/filtro'
+import { alterarFiltro } from '../../store/reducers/filter'
 import * as S from './styles'
 import * as enums from '../../utils/enums/contatos'
 import { useDispatch, useSelector } from 'react-redux'

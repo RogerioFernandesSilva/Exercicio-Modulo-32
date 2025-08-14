@@ -1,11 +1,11 @@
 import { FormEvent, useState } from 'react'
-import { Main } from '../../styles/variaveis'
+import { Main }   from '../../styles/variaveis'
 
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { AreaTag, BacktoPage, BtnCadastro, Dados, Fild, Opcao } from './styles'
 import * as enums from '../../utils/enums/contatos'
-import { cadastrar } from '../../store/redurcers/contatos'
+import { cadastrar } from '../../store/reducers/contacts'
 import {Link} from 'react-router-dom'
 
 import { MdArrowBack } from 'react-icons/md'

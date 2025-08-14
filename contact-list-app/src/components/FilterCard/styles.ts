@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { variaveis } from '../../styles/variaveis'
+import variaveis  from '../../styles/variaveis'
 
 
 type Props = { ativo: boolean }
